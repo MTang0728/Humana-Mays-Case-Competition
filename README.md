@@ -9,11 +9,29 @@ With the rapid pace of social development, we humans have enjoyed an easier way 
 For a detailed analysis, please refer to the [report](./Doc/Report.pdf).
 
 **-- Project Status: [Completed]**
+
 **-- Competition Status: [Top 50 teams]**
 
 ## Methods Used:
+- Missing value imputation
+- Categorical variable encoding
+- Feature engineering
+- Logistic Regression
+- Random Forest Classifier
+- XGBoost Classifier
 
 ## Tools/Packages Used:
+###Tools:
+- R for preliminary data inspection
+- Interactive Python in Jupyter Notebook
+
+###Packages:
+- **Pandas** for data wrangling and manipulation
+- **NumPy** for arithmetic operation
+- **matplotlib** for data visualization
+- **Category Encoders** for encoding categorical variables
+- **scikit-learn** for building Random Forest & Logistic Regression classifiers, selecting features and evaluating performance
+- **XGBoost** for building XGBoost classier
 
 ## Project Member:
 - Yicheng Huang: [@Yicheng Huang](https://github.com/yichenghuang980)
