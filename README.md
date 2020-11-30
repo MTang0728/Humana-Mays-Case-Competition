@@ -13,24 +13,37 @@ For a detailed analysis, please refer to the [report](./Doc/Report.pdf).
 **-- Competition Status: [Top 50 teams]**
 
 ## Methods Used:
+- Exploratory Data Analysis (EDA)
 - Missing value imputation
 - Categorical variable encoding
 - Feature engineering
-- Logistic Regression
+- Hyperparameter tunning
+
+## Models Used:
+- Logistic Regression Classifier
 - Random Forest Classifier
 - XGBoost Classifier
 
+## Model Performance Comparison:
+Model | Average AUC 
+------| -----------
+Logistic Regression Classifier | 0.739
+Random Forest Classifier | 0.720
+XGBoost Classifier | 0.736
+
+The values presented above are calculated using 10-folds cross-validation on the training set.
+
 ## Tools/Packages Used:
-###Tools:
+### Tools:
 - R for preliminary data inspection
 - Interactive Python in Jupyter Notebook
 
-###Packages:
+### Packages:
 - **Pandas** for data wrangling and manipulation
 - **NumPy** for arithmetic operation
 - **matplotlib** for data visualization
 - **Category Encoders** for encoding categorical variables
-- **scikit-learn** for building Random Forest & Logistic Regression classifiers, selecting features and evaluating performance
+- **scikit-learn** for building Random Forest & Logistic Regression classifiers, selecting features, tunning hyperparameters and evaluating performance
 - **XGBoost** for building XGBoost classier
 
 ## Project Member:
